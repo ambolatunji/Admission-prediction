@@ -1,0 +1,39 @@
+@relation admipredDF_train-weka.filters.unsupervised.attribute.Remove-R1_predicted
+
+@attribute jambscore numeric
+@attribute postutme numeric
+@attribute 'prediction margin' numeric
+@attribute 'predicted result' {Accepted,Rejected}
+@attribute result {Accepted,Rejected}
+@attribute year numeric
+@attribute scale numeric
+
+@data
+192,35.5,0.857143,Rejected,Rejected,2018,100
+180,35.5,0.857143,Rejected,Rejected,2017,100
+230,55.5,1,Accepted,Accepted,2013,100
+233,45.5,0.333333,Accepted,Accepted,2017,100
+260,55.5,1,Accepted,Accepted,2017,100
+245,45.5,0.333333,Accepted,Accepted,2015,100
+300,80,1,Accepted,Accepted,2014,100
+220,50.1,1,Accepted,Accepted,2017,100
+295,75.7,1,Accepted,Accepted,2015,100
+247,40.5,-0.333333,Accepted,Rejected,2015,100
+200,66,1,Accepted,Accepted,2014,100
+222,60,1,Accepted,Accepted,2016,100
+140,23,0.857143,Rejected,Rejected,2017,100
+240,67,1,Accepted,Accepted,2015,100
+200,25.5,0.857143,Rejected,Rejected,2015,100
+120,26,0.857143,Rejected,Rejected,2016,100
+237,45.5,0.333333,Accepted,Accepted,2016,100
+220,56,1,Accepted,Accepted,2016,100
+250,59.9,1,Accepted,Accepted,2018,100
+199,41.5,-0.857143,Rejected,Accepted,2015,100
+215,35.5,0.333333,Accepted,Accepted,2016,100
+200,55.7,1,Accepted,Accepted,2014,100
+215,35.5,-0.333333,Accepted,Rejected,2016,100
+190,45,0.857143,Rejected,Rejected,2015,100
+218,35.5,-0.333333,Accepted,Rejected,2018,100
+205,37,0.857143,Rejected,Rejected,2018,100
+235,55.5,1,Accepted,Accepted,2016,100
+200,35.5,-0.857143,Rejected,Accepted,2018,100

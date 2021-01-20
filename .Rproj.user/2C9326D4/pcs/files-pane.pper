@@ -1,0 +1,9 @@
+{
+    "path" : "~/admiss/New folder/Admission Prediction",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

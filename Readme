@@ -1,0 +1,58 @@
+hi... 
+this program is about admission prediction: it predicts the candidate that re 
+to be accepted and rejected into computer science department.
+
+
+After runnung the code, it can be seen from the decision tree that postutme was
+the main point of giving admission and if you score 45.6 and above you will be 
+accepted and if you score below the your jamb score will be used, if you scored 
+below 45.5 and your jamb score is 206 and above you will be admitted other wise
+rejected.
+
+
+***********Installation***********
+ download R (R is like java... download R and install normally)
+ then download R studio to run R codes
+ after which import the unzip folder to R studio by clicking file|| open projects
+  check the right side and below... u will see all the files in the folder
+  right click and click import dataset  an interface will open, after it has been loaded 
+  click import
+ run coad.R by clicking Run on each line 
+ **** R executes one by one. and the answers varies.. u might get different 
+ ans since it shuffles the train and test data
+ 
+ 
+ ********the second part is java program
+ there is a java program run it it will give the 
+ result of those admitted and those rejected
+Run the weka.java
+online if u have weka library installed 
+
+
+
+ 
+ **** incase that is difficult
+ download weka any version
+ install and run it
+ click on explorer
+ from preprocess tab click open file... just open any file
+ from the file type choose csv
+ go to classify
+ from the "result list (right-click for options)" right click and select
+ load model, navigate to result.model (result.model is in the unzipped folder)
+ click on supply test set
+ change file type to .csv and navigate to admipeddf_test 
+ (note: if u run the coad.r before this... the admipreddf_test would have 
+ changed because it overwrites itsef and picks at random)
+ change the (num)scale to (num)result click close
+ go to more options and click output prediction to csv or any format u want
+	go to the loaded model and right click and choose RE-EVALUATE MODEL
+	u will c the predicted class and the percentange it predicts them... 
+	the first is the serial number so u can know their names
+	
+	***** my prediction is both the admi.artff and admiii.arfff (open with note pad)
+	
+ 
+ 
+
+  
